@@ -65,6 +65,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-002"
             }'
@@ -118,6 +119,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-003"
             }'
@@ -171,6 +173,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-004"
             }'
@@ -224,6 +227,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-005"
             }'
@@ -277,6 +281,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-006"
             }'
@@ -330,6 +335,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-007"
             }'
@@ -384,6 +390,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-008"
             }'
@@ -437,6 +444,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-009"
             }'
@@ -490,6 +498,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-010"
             }'
@@ -543,6 +552,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-011"
             }'
@@ -596,6 +606,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-012"
             }'
@@ -649,6 +660,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-013"
             }'
@@ -702,6 +714,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-014"
             }'
@@ -755,6 +768,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-015"
             }'
@@ -808,6 +822,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-016"
             }'
@@ -861,6 +876,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-017"
             }'
@@ -914,6 +930,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-018"
             }'
@@ -967,6 +984,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-019"
             }'
@@ -1020,6 +1038,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-020"
             }'
@@ -1073,6 +1092,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-021"
             }'
@@ -1126,6 +1146,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-022"
             }'
@@ -1179,6 +1200,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-023"
             }'
@@ -1232,6 +1254,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-024"
             }'
@@ -1285,6 +1308,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-025"
             }'
@@ -1338,6 +1362,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-026"
             }'
@@ -1391,6 +1416,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-027"
             }'
@@ -1444,6 +1470,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-028"
             }'
@@ -1497,6 +1524,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-029"
             }'
@@ -1550,6 +1578,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-030"
             }'
@@ -1603,6 +1632,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-031"
             }'
@@ -1656,6 +1686,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-032"
             }'
@@ -1709,6 +1740,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-033"
             }'
@@ -1762,6 +1794,7 @@ jobs:
             -H "Content-Type: application/json" \
             -H "x-webhook-token: ${{ secrets.auth-key }}" \
             -d '{
+                "tablePrefix":"uni_",
                 "teamName": "${{ inputs.team-name }}",
                 "bugCode": "BUG-034"
             }'
